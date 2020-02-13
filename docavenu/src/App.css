@@ -1,0 +1,210 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+main {
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+
+/*Barre de navigation*/
+
+.menu {
+  height: 60px;
+  background-color: #865496;
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.nav-title {
+  display: inline-block;
+  width: 7%;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px 3%;
+  vertical-align: middle;
+  margin-right: 0;
+}
+
+nav {
+  padding-right: %;
+}
+
+nav span {
+  position: absolute;
+  color: white;
+  background-color: #D32676;
+  border-radius: 50%;
+  width: 28px;
+  vertical-align: top;
+  text-align: center;
+  margin-top: 10px;
+  height: 25px;
+  padding-top: 3px;
+  margin-left: -2%;
+  right: 1%;
+}
+
+.product-item {
+  display: inline-block;
+  width: 25%;
+  border: 2px solid #865496;
+  border-radius: 10px;
+  margin: 10px 1%;
+  padding: 10px;
+  vertical-align: top;
+}
+
+img.productImage {
+  width: 330px;
+}
+
+.add-basket {
+  cursor: pointer;
+  padding: 3px;
+}
+
+.fa-plus-circle:before {
+    content: "\f055";
+    font-family: "FontAwesome";
+    color: #865496;
+    font-size: 40px;
+}
+
+.fa-arrow-left:before {
+  font-family: "FontAwesome";
+  color: #865496;
+  font-size: 40px;
+}
+
+.fa-arrow-right:before {
+  font-family: "FontAwesome";
+  color: #865496;
+  font-size: 40px;
+}
+
+.direction {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.direction span {
+  margin: 0 3%;
+}
+
+.basket-item {
+  list-style: none;
+  width: 86%;
+  margin: auto;
+  margin-bottom: 30px;
+
+}
+
+.basket-item img {
+  display: inline-block;
+  width: 20%;
+}
+
+.basket-item .info {
+  display: inline-block;
+  width: 60%;
+  vertical-align: top;
+  padding-top: 20px;
+}
+
+.basket-item .info h3 {
+  text-decoration: underline;
+}
+
+.basket-item .info .deleteItem {
+  width: 20%;
+  background-color: #865496;
+  color: white;
+  padding: 10px 2%;
+  margin: auto;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 900px) {
+  .nav-title {
+    width: 20%;
+    margin-right: 7%;
+  }
+
+  .product-item {
+    width: 80%;
+  }
+
+
+  nav span {
+    right: 5%;
+  }
+
+  .basket-item img {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  .basket-item .info {
+    width: 80%;
+  }
+
+  .basket-item .info .deleteItem {
+    width: 40%;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
